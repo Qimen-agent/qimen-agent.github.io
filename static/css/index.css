@@ -762,7 +762,7 @@ a:focus {
 }
 
 /* 手机端响应式样式 */
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .logo {
     position: static;
     display: flex;
