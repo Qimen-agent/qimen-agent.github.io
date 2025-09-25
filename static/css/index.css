@@ -751,10 +751,12 @@ a:focus {
 
 @media screen and (min-width: 769px), print {
   .column.is-half {
-    flex: 1; /* 左边列 */
+     width: 46.26%; /* 左边占35%宽度 */
+    
 }
 .column.is-half:nth-child(2) {
-    flex: 2; /* 右边列 */
+     width: 53.74%; /* 左边占35%宽度 */
+   
 }
   
 
