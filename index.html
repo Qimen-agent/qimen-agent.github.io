@@ -4,7 +4,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="title" content="奇门：大模型驱动的集群智能辅助决策智能体 - 刘起东等">
+  <meta name="title" content="奇门：大模型驱动的辅助决策智能体 - 刘起东等">
   <meta name="keywords" content="智能体, 大模型, 集群智能, 辅助决策, 组合优化">
   <meta name="author" content="刘起东,范佩怡,赵博,陈董,罗威,徐明亮">
   <meta name="robots" content="index, follow">
@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://cdn.bootcdn.net"> 
 <link rel="preconnect" href="https://cdn.jsdelivr.net"> 
 
-<title>奇门：大模型驱动的集群智能辅助决策智能体 - 刘起东等 | Academic Research</title>
+<title>奇门：大模型驱动的辅助决策智能体 - 刘起东等 | Academic Research</title>
 
 
 <link rel="icon" href="static/images/logo.jpg">
@@ -114,7 +114,7 @@
             </h1>
 
             <h2 class="subtitle is-3 publication-subtitle">
-           奇门：大模型驱动的集群智能辅助决策智能体
+           奇门：大模型驱动的辅助决策智能体
           </h2>
 
             <div class="is-size-5 publication-authors">
@@ -149,7 +149,7 @@
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://qimen-agent.github.io/" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -160,7 +160,7 @@
 
                     <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="https://qimen-agent.github.io/" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
@@ -169,20 +169,10 @@
                     </a>
                   </span>
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
 
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://qimen-agent.github.io/" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -231,7 +221,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            集群协同规划与决策是一类典型的 NP-hard 组合优化问题，现有研究方法大多针对特定场景设计，缺乏通用性，且严重依赖专家知识进行人工建模。为构建面向指挥决策的智能辅助系统，本文提出一种基于大语言模型的集群智能辅助规划智能体——奇门。该智能体通过大语言模型理解高层任务指令或自然语言描述，自动解析并转化为组合优化问题的超参数配置，进而驱动预训练求解器生成可行方案。为适应大规模集群实时调度中对人机交互效率的要求，本文设计了结构化指令集以压缩输入长度，并采用代码式输出格式以降低响应复杂度和提升解析速度。此外，智能体支持交互式决策修订机制：指挥员可基于领域经验或任务直觉，输入部分决策草案或初始方案，系统据此进行协同补全与优化。若输出结果未完全符合指挥意图，指挥官可进一步提供修正反馈，智能体将依据新输入实时响应，并以迭代方式动态生成调整后的方案，从而实现人机协同的渐进式决策优化。仿真与实际部署实验表明，所提出方法在通用性、响应速度和求解质量方面均具有显著优势。本工作的相关代码已开源，详见项目页面：https://qimen-agent.github.io/
+          集群任务分配与规划是一类典型的 NP-hard 组合优化问题，现有研究方法大多针对特定场景设计，缺乏通用性，且严重依赖专家知识进行人工建模. 为构建面向指挥决策的智能辅助系统，本文提出一种大模型驱动的辅助决策智能体-奇门. 该智能体通过大模型理解高层任务指令，自动解析并转化为组合优化求解器的超参数配置. 为满足大规模集群实时调度对人机交互效率的需求，本文设计了结构化指令集以压缩输入长度，并采用代码式输出格式以降低响应复杂度和提升解析速度. 此外，智能体支持交互式决策修订机制：指挥员可基于领域知识或战术直觉，输入部分决策草案或初始方案，系统据此进行协同补全与优化. 若输出结果未完全符合指挥意图，指挥官可进一步提供修正反馈，智能体将依据新输入实时响应，并以迭代方式动态生成调整后的方案，从而实现人机协同的渐进式决策优化. 仿真与实际部署实验表明，所提出方法在通用性、响应速度和求解质量方面均具有显著优势. 更多信息详见项目主页：https://qimen-agent.github.io/
           </p>
         </div>
       </div>
@@ -317,7 +307,7 @@ An Instruction-Driven Solving Framework for Real-Time Decision-Making
       <pre id="bibtex-code"><code>@article{Qimen2026,
   title={Qimen-agent: An LLM-Driven Swarm Intelligence Assistant for Decision-Making},
   author={Qidong Liu, Peiyi Fan, Bo Zhao, et al},
-  journal={中国科学: 信息科学,2026},
+  journal={中国科学: 信息科学, 2026},
   year={2026},
   url={https://qimen-agent.github.io}
 }</code></pre>
